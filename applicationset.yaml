@@ -16,9 +16,9 @@ spec:
       name: '{{namespace}}-color-app'
     spec:
       # applications will be in default project for argocd
-      project: myproj
+      project: myproject
       source:
-        repoURL: https://github.com/amitopenwriteup/argoappsetlist.git
+        repoURL: https://github.com/aritra92/argoappsetlist.git
         targetRevision: HEAD
         path: list-generator-example/deployment
       destination:
